@@ -1,4 +1,4 @@
-- 1 - 4 GB [proof](/assets/4gb.png) . It's possible to expand to the size of the subnet through the System API.
+- 1 - 48 GB according to: https://forum.dfinity.org/t/increased-canister-smart-contract-memory/6148/147
 
 - 2 - it's a let, and should be a var (due to let not being mutable).
 
