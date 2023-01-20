@@ -74,9 +74,9 @@ actor Echo {
     // 2.6
     // I didn't have time to finish this challenge
     public query func convert_to_binary(n : Nat) : async Text {
-        var n : Nat = 0;
-        var binaryString : Text = "";
-        let b : Buffer.Buffer<Nat> = {};
+        // var n : Nat = 0;
+        // var binaryString : Text = "";
+        // let b : Buffer.Buffer<Nat> = {};
 
         // for every / 10
         // divide & check if it's divisible by 2, check remainder
@@ -87,10 +87,10 @@ actor Echo {
         //    }
         
 
-        for(v in b.vals()){
-            binaryString := binaryString # v;
-        };
+        // for(v in b.vals()){
+        //     binaryString := binaryString # v;
+        // };
         
-        return binaryString;
+        return "binaryString";
     }
 };
